@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/night-city-city-6016x3384-9753.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://www.pngkey.com/png/full/792-7922307_download-moon-png-hd.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    animation: kas-1 30s infinite;
+    transition: 0 s;
+    position: relative;
+    transform: scale(360deg);
+
+
+}
+
+.b {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    background-image: url(./sea-night-lights-the-evening-wallpaper-thumb-removebg-preview.png);
+    background-size: cover;
+    border-radius: 50px;
+    animation: kas-2 20s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+@keyframes kas-1 {
+    0% {
+        left: 0px;
+
+    }
+
+    100%{
+        left: 1200px;
+    }
+
+}
+
+@keyframes kas-2 {
+    0% {
+        left: 0px;
+        top: 150px;
+    }
+
+
+    100% {
+        left: 1500px;
+        top: 200px;
+
+    }
+}
